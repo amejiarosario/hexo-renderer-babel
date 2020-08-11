@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-babel",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Babel renderer plugin for Hexo",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/townewgokgok/hexo-renderer-babel.git"
+    "url": "https://github.com/amejiarosario/hexo-renderer-babel.git"
   },
   "keywords": [
     "hexo",
     "babel"
   ],
-  "author": "townewgokgok",
+  "author": "amejiarosario",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/townewgokgok/hexo-renderer-babel/issues"
+    "url": "https://github.com/amejiarosario/hexo-renderer-babel/issues"
   },
-  "homepage": "https://github.com/townewgokgok/hexo-renderer-babel",
+  "homepage": "https://github.com/amejiarosario/hexo-renderer-babel",
   "dependencies": {
+    "@babel/polyfill": "^7.10.4",
     "babel": "^4.7.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0"
   }
 }
